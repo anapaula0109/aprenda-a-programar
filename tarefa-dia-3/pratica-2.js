@@ -11,13 +11,12 @@ Tabuada de 9
 9 x 9 = 81
 9 x 10 = 90 */ 
 
-let multiplicador = 9
-let n = 9
+const multiplicador = 9
 let i = 1
 
-while (i<= n) {
-    let calculoTabuada = multiplicador * i
-    let textoDeEcibicao = '${multiplicador} x ${i} = ${resultado}'
+while (i<= 10) {
+    const calculoTabuada = i*multiplicador
+    const textoDeEcibicao = '${multiplicador} x ${i} = ${resultado}'
     console.log(textoDeExibicao)
-    i++
+
 }
